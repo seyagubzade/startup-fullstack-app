@@ -1,0 +1,69 @@
+.about_area {
+    background: #1f1f1f;
+    position: relative;
+    &::before {
+        content: "";
+        background-image: url("https://preview.colorlib.com/theme/startup2/img/about/about.png.webp");
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 50%;
+        z-index: 9;
+        background-size: cover;
+        position: absolute;
+        background-size: cover;
+        background-position: center center;
+    }
+    .about_info {
+        padding: 100px 0;
+        .section_title {
+            span {
+                color: #fff;
+                padding-top: 0;
+                position: relative;
+                z-index: 3;
+                font-size: 14px;
+                font-weight: 500;
+                text-transform: capitalize;
+                margin-bottom: 19px;
+                display: block;
+                font-family: "Roboto", sans-serif;
+            }
+            h3 {
+                font-size: 35px;
+                margin-bottom: 20px;
+                margin-top: 25px;
+            }
+            .mid_text {
+                color: #C9C9C9;
+                font-size: 16px;
+                font-weight: 400;
+                margin-bottom: 14px;
+            }
+            .last_text {
+                color: #C9C9C9;
+                font-size: 18px;
+                font-weight: 400;
+                margin-bottom: 44px;
+            }
+            .boxed-btn3 {
+                background: #615CFD;
+                color: #fff;
+                display: inline-block;
+                padding: 12px 33px;
+                font-family: "Muli", sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                border: 0;
+                border: 1px solid transparent;
+                border-radius: 30px;
+                text-align: center;
+                color: #fff !important;
+                text-transform: capitalize;
+                transition: 0.5s;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+    }
+}

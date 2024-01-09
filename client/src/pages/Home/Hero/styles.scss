@@ -1,0 +1,51 @@
+.hero {
+    width: 100%;
+    height: 90vh;
+    color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-image: url("https://preview.colorlib.com/theme/startup2/img/banner/banner.png.webp");
+    .slider-shadow {
+        position: absolute;
+        background-color: #1f1f1f;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        opacity: 0.8;
+    }
+    .slider-text{
+        z-index: 100;
+        h3 {
+            color: #FFF;
+            font-family: "Roboto", sans-serif;
+            font-size: 36px;
+            width: 80%;
+            font-weight: 400;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        .boxed-btn3 {
+            background: #615CFD;
+            color: #fff;
+            display: inline-block;
+            padding: 12px 33px;
+            font-family: "Muli", sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            border: 0;
+            border: 1px solid transparent;
+            border-radius: 30px;
+            text-align: center;
+            color: #fff !important;
+            text-transform: capitalize;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+}
